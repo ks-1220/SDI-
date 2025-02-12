@@ -10,7 +10,7 @@ Original file is located at
 import pandas as pd
 import numpy as np
 #import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 import tensorflow as tf
