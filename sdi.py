@@ -29,7 +29,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 df.set_index('Date', inplace=True)
 df = df.sort_index()
 
-df.dtypes
+#df.dtypes
 
 # Encode categorical columns
 categorical_cols = ['Industry', 'Chemical_Type', 'Weather_Condition', 'Production_Scale']
